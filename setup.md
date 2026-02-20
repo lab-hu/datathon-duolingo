@@ -21,9 +21,10 @@ Run the first cell:
 ```
 
 ## 4) Download the dataset (Terminal)
+Use the dataset link provided by the team (not stored in this repo). Then run:
 ```bash
 cd /workspaces/datathon-duolingo
-gdown --fuzzy "https://drive.google.com/file/d/1sEwxn6PmG-FWva6qQAdRpM-48X4hVvc_/view?usp=drive_link" -O dataset.zip
+gdown --fuzzy "<DATASET_LINK>" -O dataset.zip
 ls -lh dataset.zip
 ```
 
@@ -31,7 +32,7 @@ ls -lh dataset.zip
 If it’s tiny (KB), the download failed.
 
 ### Fallback: browser download + upload
-1. Open the link in your browser and download `dataset.zip`  
+1. Open the dataset link in your browser and download `dataset.zip`  
 2. In VS Code Explorer → right‑click folder → **Upload…**  
 3. Upload `dataset.zip` into `/workspaces/datathon-duolingo`
 
